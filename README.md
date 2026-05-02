@@ -89,11 +89,8 @@ npm install
 ```
 
 ### 2. 配置环境变量
-
-后端 `.env` 文件已包含默认配置：
-
 ```
-MONGO_URI=mongodb://localhost:27017/order_system
+MONGO_URI=.env
 PORT=5000
 ```
 
@@ -114,7 +111,7 @@ cd backend
 npm run dev
 ```
 
-服务运行在 `http://localhost:5000`
+服务运行在 `你的env`
 
 ### 5. 启动前端
 
@@ -123,7 +120,7 @@ cd frontend
 npm start
 ```
 
-浏览器自动打开 `http://localhost:3000`
+浏览器自动打开 `你的env`
 
 ## 使用指南
 
